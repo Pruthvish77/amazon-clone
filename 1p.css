@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.nav{
+    justify-content: space-evenly;
+    display: flex;
+    height: 60px;
+    background-color: #0f0f0f;
+    color: white;
+    align-items: center;
+
+}
+.nav-log{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-color: pink;
+    height: 50px;
+    background-size: cover;
+    background-image:url("logo.jpg");
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+
+/**box2 **/
+.add-first{
+    color: #cccccc;
+    font-size: 0.8rem;
+    margin-left: 15px;
+}
+
+.add-sec{
+
+    color: #cccccc;
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-serch{
+    border-radius: 4px;
+    display: flex;
+    background-color:yellow;
+    width: 620px;
+    height: 40px;
+    justify-content: space-evenly;
+}
+.nav-serch:hover{
+    border: 2px solid orange;
+}
+.seach-select{
+    background-color: #f3f3f3;
+    width: 60px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border: none;
+}
+.search-ip{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.secrch-icon{
+    display: flex;
+    width: 50px;
+    
+    align-items: center;
+    font-size: 1.3rem;
+    background-color: yellow;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+//**box4**/
+span{
+    font-size: 0.7rem;
+
+}
+.nav-sec{
+    font-size: 0.85rem;
+    font-weight: 700px;
+}
+.nav-cart i {
+    font-size: 30px;
+    font-weight: 700;
+
+
+}
+.pannel{
+    display:flex;
+    height: 39px;
+    background-color: #222f32;
+    align-items: center;
+    justify-content: space-evenly;
+color: white;
+}
+.pannle-options p{
+    display: inline;
+    margin-left: 10px;
+    color: white;
+}
+.pannle-options{
+    
+    width: 70%;
+    font-size: 0.85rem;
+}
+.pannel-deals{
+    font-size: 0.9rem;
+    font-family: 700;
+}
+.hero-sec{
+    height: 300px;
+    background-color: gainsboro;
+    background-size: cover;
+display: flex;
+justify-content: center;
+align-items: flex-end;
+}
+.hero-msg{
+    height: 40px;
+    background-color: rgb(227, 128, 128);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+.hero-sec a{
+    color: #072307;
+}.container{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.box{
+    padding: 10px 0px 15px  10px;
+    background-size: cover;
+    border: 2px solid black;
+    height: 400px;
+width: 23%;
+    background-color: white;
+
+}
+ .box-img{
+    height: 300px;
+
+    
+ }
+ .box-content{
+margin-left: 1rem;
+margin-right: 1rem;
+ }
+ 
+ @media  only screen and (max-width:500px) 
+ {
+    .container{
+        display:flex;
+        flex-direction:column;
+        width: 100%;
+        
+        
+    }
+   .box,.box-img{
+    background-color: black;
+    color: #fff;
+    width: 100%;
+    background-size: cover;
+   }
+   header{
+    display:flex;
+   flex-direction: column;
+   
+   }
+   
+ }
+.circle{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: white;
+    border-top: 5px solid gray;
+    animation: circle 0.5s linear infinite 0s normal;
+
+}
+@keyframes circle{
+    from{transform: rotate(0deg);}
+    to{
+transform: rotate(360deg);
+    }
+}
+ 
